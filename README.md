@@ -14,7 +14,7 @@
     <br/>
     <br/>
     <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App">View Demo</a>
-    .
+    
     <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App/issues">Request Feature</a>
   </p>
 </p>
