@@ -10,11 +10,11 @@
     Fully Customisable Video Calling App for Users! Feel Free to Add Up to It!
     <br/>
     <br/>
-    
+    <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App">View Demo</a>
-    
+    .
     <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App/issues">Request Feature</a>
   </p>
 </p>
