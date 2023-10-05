@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/z2mTj8R/28.jpg" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Open-Source Video Calling App</h3>
