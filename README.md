@@ -1,60 +1,31 @@
-# Contributor Covenant Code of Conduct
+<br/>
+<p align="center">
+  <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App">
+    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-## Our Pledge
+  <h3 align="center">Open-Source Video Calling App</h3>
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+  <p align="center">
+    Fully Customisable Video Calling App for Users! Feel Free to Add Up to It!
+    <br/>
+    <br/>
+    <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App">View Demo</a>
+    .
+    <a href="https://github.com/AkshaPratapSingh09/Video-Calling-App/issues">Request Feature</a>
+  </p>
+</p>
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+![Contributors](https://img.shields.io/github/contributors/AkshaPratapSingh09/Video-Calling-App?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/AkshaPratapSingh09/Video-Calling-App?style=social) ![Issues](https://img.shields.io/github/issues/AkshaPratapSingh09/Video-Calling-App) 
 
-## Our Standards
+## About The Project
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+![Screen Shot](images/screenshot.png)
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
-
-Examples of unacceptable behavior include:
-
-* The use of sexualized language or imagery, and sexual attention or
-  advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
-
-## Enforcement Responsibilities
-
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
-
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
-
-## Scope
-
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+This Project Primarily focuses on building a Fully Function Video calling App Like #GoogleMeet, #Zoom With multiple additional functionality.
 
 ## Enforcement
 
