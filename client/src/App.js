@@ -1,38 +1,40 @@
 import './App.css';
-import io from 'socket.io-client'
-import { useEffect,useState } from 'react';
+import { useState } from 'react';
+import Home from './pages/home';
+import Chat from './pages/chat';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import io from 'socket.io-client';
 
-const socket = io.connect("http://localhost:3000")
+const socket = io.connect('http://localhost:4000/');
 
 function App() {
-
-  const [room,setRoom] = useState("");
-  const [message,setMessage] = useState('');
-  const [messageReceived,setMessageReceived] = useState('');
-
-  const joinroom = () =>{
-    if (room !==''){
-      socket.emit('join_room',room);
-    }
-  };
-  const sendMessage = () =>{
-    socket.emit("send_message",{message});
-  };
-
-  useEffect(()=>{
-    socket.on('receive_message',(data) =>{
-      setMessageReceived(data.message)
-    })
-  },[socket])
+  const [username, setUsername] = useState('');
+  const [room, setRoom] = useState('');
 
   return (
-    <div className="App">
-      <input placeholder='Enter Room Here' onChange={(event)=>{setRoom(event.target.value);}}/>
-      <input placeholder='Enter Message Here' onChange={(event)=>{setMessage(event.target.value);}}/>
-      <button onClick={sendMessage} >Send Message</button>
-      <h1>Message:</h1>
-      {messageReceived}
-    </div>
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <Home
+                username={username}
+                setUsername={setUsername}
+                room={room}
+                setRoom={setRoom}
+                socket={socket}
+              />
+            }
+          />
+          {/* Add this */}
+          <Route
+            path='/chat'
+            element={<Chat username={username} room={room} socket={socket} />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

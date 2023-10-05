@@ -15,12 +15,15 @@ const io = new Server(server, {
     },
 })
 
+const roomno = 1
+
 app.get('/', (req, res) => {
   res.send('<h1>Backend Working</h1>');
 });
 
 io.on("connection", (socket) =>{
     console.log(`User Connected : ${socket.id}`)
+    socket.join("room-"+roomno);
 
     socket.on('join_room',(data) =>{
         socket.join(data);
