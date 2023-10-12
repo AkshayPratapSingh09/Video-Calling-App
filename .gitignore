@@ -1,6 +1,9 @@
 
 /node_modules
 /client/node_modules
+/client/build
 server/node_modules
 
 .env
+/testing_server/node_modules
+/testing_client/node_modules
